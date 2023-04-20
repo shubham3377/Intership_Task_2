@@ -1,0 +1,185 @@
+body, html {
+    font-family: Segoe UI;
+    
+}
+body{
+    width: 1590px;
+    height: 2900px;
+    margin: 8px;
+}
+
+nav{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    text-align: center;
+    font-size: 20px;
+    width: 1382px;
+    height: 90px;
+    display: block;
+    color: white;
+}
+
+
+a{
+    text-decoration:none;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+
+* {
+    padding: 0;
+    margin-left: -10px;
+    box-sizing: border-box;
+}
+
+body {
+    display: block;
+    margin: 8px;
+}
+
+.main_container {
+    background-color: #eee;
+    max-width: 90vw;
+    margin: auto;
+    margin-top: 40px;
+    border-radius: 10px;
+}
+.main_image{
+    max-width: 90%;
+    max-height: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 40px;
+    
+}
+
+header {
+    display: block;
+}
+
+h1 {
+    font-size: 50px;
+    color: #46404c;
+    width: 1333px;
+    height: 67px;
+    display: block;
+    font-weight: bold;
+    text-align: center;
+}
+
+h2 {
+    color: #46404c;
+    padding: 24px 307px;
+    font-size: 30px;
+    text-align: center;
+    align-items: center;
+
+}
+
+h3 {
+    color: #46404c;
+    display: block;
+    font-size: 30px;
+    width: 1382px;
+    height: 59px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+div {
+    display: block;
+}
+
+p {
+    font-size: 16px;
+    margin: 0px 100px;
+    width: 1182px;
+    height: 64px;
+}
+
+section {
+    display: block;
+}
+
+li {
+
+    font-size: 16px;
+    width: 768px;
+    height: auto;
+    display: list-item;
+    text-align: -webkit-match-parent;
+   
+}
+
+ul{
+    color: #46404c;
+    font-size: 768px 1050px;
+    padding: 24px 307px ;
+    text-align: center;
+    align-items: center;
+    text-align: start;
+    display: block;
+    list-style: disc;
+    line-height: 2;
+    text-align: justify;
+    /* text-align-last: start ;
+    font-variant-numeric: tabular-nums;
+    text-indent: 0px; */
+}
+ol{
+    padding:17px 307px ;
+}
+
+footer {
+    margin-top: 12vh;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+a:hover{
+    transition: 0.9s;
+    background-color: rgb(78, 56, 56);
+    color: white;
+}
+
+.content{
+    width: 1180px;
+    height: 21px;
+    margin: 0px 100px;
+
+    
+}
+
+.more_book{
+    font-size: 16px;
+    width: 770px;
+    height: 21px;
+    margin-left: 300px;
+    margin-right: 100px;
+    font-weight: 500;
+    margin-top: -8px;
+}
+
+#more_info{
+    background-color:#E2DEDE;
+    width: 1244px;
+    height: 140px;
+    margin: auto;
+    border-radius: 8px;
+}
+
+.famous_quote{
+    padding-top: 25px;
+    text-align: center;
+
+}
+
+.read_more{
+    margin-top: 40px;
+    padding-bottom: 10px;
+    text-align: center;
+}
